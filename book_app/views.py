@@ -6,3 +6,6 @@ def login(request):
 
 def reg(request):
     return HttpResponse('regis')
+
+def add(request):
+    return HttpResponse('增加功能')
